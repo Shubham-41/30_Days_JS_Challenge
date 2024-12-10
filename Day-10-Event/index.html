@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handling Tasks</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Activity 1 -->
+      <section>
+        <h2>Activity 1: Basic Event Handling</h2>
+        <button id="change-text-btn">Change Paragraph Text</button>
+        <p id="text-paragraph">Original Text</p>
+        <img
+          id="toggle-image"
+          src="https://via.placeholder.com/150"
+          alt="Placeholder Image"
+        />
+      </section>
+
+      <!-- Activity 2 -->
+      <section>
+        <h2>Activity 2: Mouse Events</h2>
+        <div id="mouseover-div" class="hover-div">Hover over me</div>
+        <div id="mouseout-div" class="hover-div">Hover out to reset color</div>
+      </section>
+
+      <!-- Activity 3 -->
+      <section>
+        <h2>Activity 3: Keyboard Events</h2>
+        <input id="key-input" type="text" placeholder="Type something" />
+        <p id="current-value">Current Value:</p>
+      </section>
+
+      <!-- Activity 4 -->
+      <section>
+        <h2>Activity 4: Form Events</h2>
+        <form id="user-form">
+          <label for="username">Username:</label>
+          <input id="username" type="text" name="username" required />
+          <label for="user-age">Age:</label>
+          <input id="user-age" type="number" name="age" required />
+          <button type="submit">Submit</button>
+        </form>
+        <select id="dropdown">
+          <option value="Option 1">Option 1</option>
+          <option value="Option 2">Option 2</option>
+          <option value="Option 3">Option 3</option>
+        </select>
+        <p id="selected-value">Selected Value:</p>
+      </section>
+
+      <!-- Activity 5 -->
+      <section>
+        <h2>Activity 5: Event Delegation</h2>
+        <ul id="dynamic-list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+        <button id="add-item-btn">Add List Item</button>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
